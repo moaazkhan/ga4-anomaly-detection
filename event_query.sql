@@ -10,7 +10,7 @@ ORDER BY 2,1
 ),
 --join data for yesterday
 yesterday AS (
-SELECT  event_date,geo.country,COUNT(*) FROM `big-query-ga4-378506.analytics_324893829.events_intraday_*`
+SELECT  event_date,geo.country,COUNT(*) FROM `{your bigquery workspace}.events_intraday_*`
 WHERE event_name = 'first_visit'
 AND _TABLE_SUFFIX BETWEEN 
   FORMAT_DATE("%Y%m%d", DATE_SUB(CURRENT_DATE(), INTERVAL 3 DAY)) AND
