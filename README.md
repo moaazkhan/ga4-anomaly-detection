@@ -16,7 +16,7 @@ Granularity: Day
 First, create ML model to detect anomalies: Check bigquery-anomaly-model.sql
 
 
-## 2. Query Model
+## 2. Querying the Model
 Next, query the model to detect anomalies: Check model_query.sql
 
 
