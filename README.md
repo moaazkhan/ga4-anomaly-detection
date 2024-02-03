@@ -6,8 +6,9 @@ You have connected GA4 with BigQuery.
 
 Event: __first_visit__
 
+
 #### Problem Statment: 
-We need to detect anomalies for __first_visit__ time-series data across countries (adding a new dimension).
+We need to detect anomalies for "__first_visit__" time-series data across countries (adding a new dimension).
 
 
 ## 1. ARIMA+ Model
