@@ -1,7 +1,7 @@
 # ga4-anomaly-detection
 Anomaly-detection on Google Analytics 4 Data in BigQuery
 
-Prerequesite
+### Prerequesite:
 Data used event: first_visit
 
 
@@ -10,7 +10,7 @@ Data used event: first_visit
 First, create an ML model to detect anomalies: Check bigquery-anomaly-model.sql
 
 
-## 2. Quqery Model
+## 2. Query Model
 Next, detect query model to detect anomalies: Check model_query.sql
 
 
