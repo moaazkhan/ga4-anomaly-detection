@@ -18,3 +18,5 @@ Next, query the model to detect anomalies: Check model_query.sql
 
 
 _You can schedule these queries to detect anomalies on an ongoing basis._
+
+Results will look something like this.
