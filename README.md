@@ -11,7 +11,7 @@ We need to detect anomalies for first_visit time-series data across countries (a
 
 
 ## 1. ARIMA+ Model
-First, create an ML model to detect anomalies: Check bigquery-anomaly-model.sql
+First, create ML model to detect anomalies: Check bigquery-anomaly-model.sql
 
 
 ## 2. Query Model
