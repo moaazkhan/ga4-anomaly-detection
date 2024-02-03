@@ -4,10 +4,10 @@ Anomaly-detection on Google Analytics 4 Data in BigQuery
 #### Prerequisite:
 You have connected GA4 with BigQuery.
 
-Event: *first_visit*
+Event: __first_visit__
 
 #### Problem Statment: 
-We need to detect anomalies for first_visit time-series data across countries (adding a new dimension).
+We need to detect anomalies for __first_visit__ time-series data across countries (adding a new dimension).
 
 
 ## 1. ARIMA+ Model
