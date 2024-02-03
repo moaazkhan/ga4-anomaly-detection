@@ -2,14 +2,14 @@
 Detecting anomalies in website traffic within your Google Analytics 4 data using BigQuery ML. 
 
 #### Prerequisite:
-You have connected GA4 with BigQuery.
+You have connected GA4 with BigQuery and data for at least the past 60 days exists in BigQuery.
+
+#### Problem Statment: 
+We need to detect anomalies for "__first_visit__" time-series data across countries (adding a new dimension).
 
 Event: __first_visit__
 
 Granularity: Day
-
-#### Problem Statment: 
-We need to detect anomalies for "__first_visit__" time-series data across countries (adding a new dimension).
 
 
 ## 1. ARIMA+ Model
