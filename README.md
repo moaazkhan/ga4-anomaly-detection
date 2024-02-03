@@ -1,11 +1,12 @@
 # ga4-anomaly-detection
-Anomaly-detection on Google Analytics 4 Data in BigQuery
+Detecting anomalies in website traffic within your Google Analytics 4 data using BigQuery ML. 
 
 #### Prerequisite:
 You have connected GA4 with BigQuery.
 
 Event: __first_visit__
 
+Granularity: Day
 
 #### Problem Statment: 
 We need to detect anomalies for "__first_visit__" time-series data across countries (adding a new dimension).
